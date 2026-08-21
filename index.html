@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XyYeex | Socials</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .intro-text {
+            color: #b3b3b3;
+            margin-bottom: 25px;
+        }
+
+        .social-flex {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-flex p {
+            background: #1e1e1e;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn-link {
+            display: block;
+            background-color: #2a2a2a;
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.2s ease-in-out;
+            border: 1px solid #3a3a3a;
+        }
+
+        /* Hover effects customized by platform colors */
+        .btn-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .yt:hover { background-color: #ff0000; border-color: #ff0000; }
+        .rblx:hover { background-color: #0084ff; border-color: #0084ff; }
+        .mc:hover { background-color: #5b8731; border-color: #5b8731; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hi, I'm XyYeex</h1>
+        <p class="intro-text">Welcome to my first website!</p>
+
+
+        <!-- Secure, semantic social buttons -->
+        <div class="links-container">
+            <a class="btn-link yt" href="https://www.youtube.com/@XyYeex" target="_blank" rel="noopener noreferrer" aria-label="Visit my YouTube channel">YT</a>
+            <a class="btn-link rblx" href="https://www.roblox.com/users/5721667032/profile" target="_blank" rel="noopener noreferrer" aria-label="View my Roblox profile">RBLX</a>
+            <a class="btn-link mc" href="https://namemc.com/profile/XyYeex.1" target="_blank" rel="noopener noreferrer" aria-label="Check my Minecraft profile on NameMC">MC from NameMC</a>
+        </div>
+    </div>
+
+</body>
+</html>
